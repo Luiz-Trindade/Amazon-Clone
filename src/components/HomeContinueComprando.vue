@@ -1,7 +1,7 @@
 <template>
     <v-container
-        style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center; height: 400px;">
-        <v-sheet class="mx-auto mb-4">
+        style="background-image: linear-gradient(to top, rgba(255,255,255,1) 30%, rgba(0,0,0,0) 50%), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center; height: 400px;">
+        <v-sheet class="mx-auto mb-4" style="border-radius: 10px; background-color: transparent;">
             <v-slide-group :show-arrows="false" style="margin-top: 200px; padding: 5px;">
                 <v-slide-group-item v-for="(category, i) in categories" :key="i" v-slot="{ isSelected, toggle }">
                     <v-btn :color="isSelected ? 'primary' : undefined" class="ma-1" rounded="10" elevation="1"
