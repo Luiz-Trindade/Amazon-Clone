@@ -17,6 +17,7 @@
                     @click="handleCardClick(oferta)"
                 >
                     <v-img
+                        :lazy-src="oferta.imagem"
                         :src="oferta.imagem"
                         :alt="oferta.titulo"
                         cover

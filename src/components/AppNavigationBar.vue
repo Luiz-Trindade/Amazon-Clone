@@ -36,7 +36,10 @@ export default {
         return {
             value: 0,
             routes: [
-                "/"
+                "/",
+                "/conta",
+                "/carrinho",
+                "/menu"
             ]
         }
     },
