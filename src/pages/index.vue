@@ -2,6 +2,7 @@
     <HomePesquisarNaAmazon />
     <HomeEnviarPara />
     <HomeCategoriesOptions />
+    <HomeContinueComprando />
 
     <v-container>
 

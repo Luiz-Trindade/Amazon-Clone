@@ -12,6 +12,7 @@ declare module 'vue' {
     AppNavigationBar: typeof import('./src/components/AppNavigationBar.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HomeCategoriesOptions: typeof import('./src/components/HomeCategoriesOptions.vue')['default']
+    HomeContinueComprando: typeof import('./src/components/HomeContinueComprando.vue')['default']
     HomeEnviarPara: typeof import('./src/components/HomeEnviarPara.vue')['default']
     HomePesquisarNaAmazon: typeof import('./src/components/HomePesquisarNaAmazon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
