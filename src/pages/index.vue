@@ -3,6 +3,7 @@
     <HomeEnviarPara />
     <HomeCategoriesOptions />
     <HomeContinueComprando />
+    <HomeOfertasPraVoce />
 
     <v-container>
 

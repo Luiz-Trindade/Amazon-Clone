@@ -14,6 +14,7 @@ declare module 'vue' {
     HomeCategoriesOptions: typeof import('./src/components/HomeCategoriesOptions.vue')['default']
     HomeContinueComprando: typeof import('./src/components/HomeContinueComprando.vue')['default']
     HomeEnviarPara: typeof import('./src/components/HomeEnviarPara.vue')['default']
+    HomeOfertasPraVoce: typeof import('./src/components/HomeOfertasPraVoce.vue')['default']
     HomePesquisarNaAmazon: typeof import('./src/components/HomePesquisarNaAmazon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
